@@ -19,11 +19,20 @@ std::array<DBGameInfo, 1> GameModernWarfare2::SinglePlayerOffsets =
 {{
     { 0x7307F8, 0x730510, 0x1589C80, 0 }
 }};
-// Modern Warfare 2 MP
-std::array<DBGameInfo, 1> GameModernWarfare2::MultiPlayerOffsets =
+/* Modern Warfare 2 MP
+std::array<DBGameInfo, 1> GameModernWarfare2::MultiPlayerOffsets =  // ORIGNAL MW2 OFFSETS
 {{
     { 0x6F81D0, 0x6F7F08, 0x6F9F00, 0 }
+}};*/
+
+// IW4x Offsets as of 7/30/2023
+std::array<DBGameInfo, 1> GameModernWarfare2::MultiPlayerOffsets =
+{{
+    //DB_XAssetPool, g_poolSize, DB_SetXAssetNameHandlers
+    { 0x7998A8, 0x7995E8, 0x7993D8, 0 }
 }};
+
+
 
 // -- Finished with databases
 
