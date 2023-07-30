@@ -2,8 +2,6 @@
 
 * IW4X SUPPORT: Rename "iw4x.exe" to "iw4mp.exe"
 * If you already have the source for greyhound just update GameModernWarfare2.cpp
-* Support for H1_Mod coming soon.
-
 
 Greyhound is an asset extractor various titles running on the IW Engine (primarily Call of Duty games), and is based off the famous [Wraith Archon](https://github.com/dtzxporter/WraithXArchon/) that was originally developed by DTZxPorter. Greyhound's aim is to provide people access to assets from the games for various purposes including working mods such custom zombie maps or weapon mods, 3D Art, and thumbnails for content creation.
 
