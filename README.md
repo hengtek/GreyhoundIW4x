@@ -1,5 +1,7 @@
 [![Releases](https://img.shields.io/github/downloads/Scobalula/Greyhound/total.svg)](https://github.com/Scobalula/Greyhound/releases) [![License](https://img.shields.io/github/license/Scobalula/Greyhound.svg)](https://github.com/Scobalula/Greyhound/blob/master/LICENSE) [![Discord](https://img.shields.io/badge/chat-Discord-blue.svg)](https://discord.gg/RyqyThu)
 
+IW4X SUPPORT: Rename "iw4x.exe" to "iw4mp.exe"
+
 Greyhound is an asset extractor various titles running on the IW Engine (primarily Call of Duty games), and is based off the famous [Wraith Archon](https://github.com/dtzxporter/WraithXArchon/) that was originally developed by DTZxPorter. Greyhound's aim is to provide people access to assets from the games for various purposes including working mods such custom zombie maps or weapon mods, 3D Art, and thumbnails for content creation.
 
 For detailed information such as game support, settings, FAQs, etc. please refer to the wiki: [Wiki](https://scobalula.github.io/Greyhound/) Work is being done to populate the wiki with information and tutorials so stay tuned!
