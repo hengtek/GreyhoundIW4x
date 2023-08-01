@@ -275,3 +275,16 @@ private:
     // A locking mutex for proper async operations
     static std::mutex CodMutex;
 };
+
+//plutonium shiet
+namespace
+{
+    const char* none = ".exe";
+    const char* binary = "plutonium-bootstrapper-win32.exe";
+
+    // change whatever game u want to binary. set to WaW by default.
+    const char* waw = binary;
+    const char* bo1 = none;
+    const char* bo2 = none;
+    const char* mw3 = none;
+}
