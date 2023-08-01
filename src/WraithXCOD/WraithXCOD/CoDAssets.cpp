@@ -425,15 +425,15 @@ std::map<uint32_t, std::string> SemanticHashes =
 const std::vector<CoDGameProcess> CoDAssets::GameProcessInfo =
 {
     // World at War
-    { "codwaw.exe", SupportedGames::WorldAtWar, SupportedGameFlags::SP },
-    { "codwawmp.exe", SupportedGames::WorldAtWar, SupportedGameFlags::MP },
+    { waw, SupportedGames::WorldAtWar, SupportedGameFlags::SP },
+    { waw, SupportedGames::WorldAtWar, SupportedGameFlags::MP },
     // Black Ops
-    { "blackops.exe", SupportedGames::BlackOps, SupportedGameFlags::SP },
-    { "blackopsmp.exe", SupportedGames::BlackOps, SupportedGameFlags::MP },
+    { bo1, SupportedGames::BlackOps, SupportedGameFlags::SP },
+    { bo1, SupportedGames::BlackOps, SupportedGameFlags::MP },
     // Black Ops 2
-    { "t6zm.exe", SupportedGames::BlackOps2, SupportedGameFlags::ZM },
-    { "t6mp.exe", SupportedGames::BlackOps2, SupportedGameFlags::MP },
-    { "t6sp.exe", SupportedGames::BlackOps2, SupportedGameFlags::SP },
+    { bo2, SupportedGames::BlackOps2, SupportedGameFlags::ZM },
+    { bo2, SupportedGames::BlackOps2, SupportedGameFlags::MP },
+    { bo2, SupportedGames::BlackOps2, SupportedGameFlags::SP },
     // Black Ops 3
     { "blackops3.exe", SupportedGames::BlackOps3, SupportedGameFlags::SP },
     // Black Ops 4
@@ -445,10 +445,10 @@ const std::vector<CoDGameProcess> CoDAssets::GameProcessInfo =
     { "iw3mp.exe", SupportedGames::ModernWarfare, SupportedGameFlags::MP },
     // Modern Warfare 2
     { "iw4sp.exe", SupportedGames::ModernWarfare2, SupportedGameFlags::SP },
-    { "iw4mp.exe", SupportedGames::ModernWarfare2, SupportedGameFlags::MP },
+    { "iw4x.exe", SupportedGames::ModernWarfare2, SupportedGameFlags::MP },
     // Modern Warfare 3
-    { "iw5sp.exe", SupportedGames::ModernWarfare3, SupportedGameFlags::SP },
-    { "iw5mp.exe", SupportedGames::ModernWarfare3, SupportedGameFlags::MP },
+    { mw3, SupportedGames::ModernWarfare3, SupportedGameFlags::SP },
+    { mw3, SupportedGames::ModernWarfare3, SupportedGameFlags::MP },
     // Ghosts
     { "iw6sp64_ship.exe", SupportedGames::Ghosts, SupportedGameFlags::SP },
     { "iw6mp64_ship.exe", SupportedGames::Ghosts, SupportedGameFlags::MP },
